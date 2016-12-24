@@ -1,0 +1,15 @@
+﻿[	
+	{
+		"url":"main",
+		"titulo":"About",
+		"icon":"icon-user"
+	},{
+		"url":"portfolio",
+		"titulo":"Portfolio",
+		"icon":"icon-camera"
+	},{
+		"url":"contact",
+		"titulo":"Contact",
+		"icon":"icon-phone"
+	}
+]

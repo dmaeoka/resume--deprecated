@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>     <html lang="en" ng-app="appResume" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>        <html lang="en" ng-app="appResume" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>        <html lang="en" ng-app="appResume" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" ng-app="appResume" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>MAEOKA - PERSONAL RESUME</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/magnific-popup.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/leaflet.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/font.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/fontello.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/main.css" />
+
+	<!--[if gte IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+	<![endif]-->
+	<script src="lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+	<script type="text/javascript">
+		var defaults = {
+			scrollWheelZoom: true,
+			dragging: true
+		}
+		var icons = {
+			default_icon: {
+				iconUrl      : 'img/markers/pin-azul.png',
+				iconAnchor   : [16,36],
+				popupAnchor  : [0,-36]
+			},
+			highlight: {
+				iconUrl      : 'img/markers/pin-vermelho.png',
+				iconAnchor   : [16,36],
+				popupAnchor  : [0,-36]
+			},
+			selected: {
+				iconUrl      : 'img/markers/pin-verde.png',
+				iconAnchor   : [16,36],
+				popupAnchor  : [0,-36]
+			}
+		};
+	</script>
+</head>
+<body>
+	<div id="loader">
+		<div id="loaderInner">
+			<div class="spinner"></div>
+		</div>
+	</div>
+	<div id="wrapper" class="margLTop  margLBottom">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-3 nopr left-content">
+					<header id="header" ng-controller="headerCtrl">
+						<div class="main-header">
+							<figure class="img-profile">
+								<img src="img/profile.jpg" alt="" />
+								<figcaption class="name-profile">
+									<span>前岡 ジエゴ<sup>&reg;</sup></span>
+								</figcaption>
+							</figure>
+							<nav id="main-nav" class="main-nav clearfix tabbed">
+								<ul ng-init="loadMenu()">
+									<li ng-repeat="item in menu" ng-class="{ active: isActive(item.url)}">
+										<a ng-href="{{item.url}}"><i ng-class="item.icon"></i> 
+											{{item.titulo}}
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
+							<ul class="social">
+								<li><a href="https://www.facebook.com/diego.maeoka" target="_blank"><i class="icon-facebook"></i></a></li>
+								<li><a href="https://plus.google.com/u/0/+DiegoMaeoka" target="_blank"><i class="icon-gplus"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/maeoka" target="_blank"><i class="icon-linkedin"></i></a></li>
+							</ul>
+							<p>&copy; 2016 Diego Maeoka.</p>
+						</div>
+					</header>
+				</div>
+				<div class="col-md-9 right-content">
+					<section class="bgWhite ofsInBottom" ng-view></section>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/placeholders.min.js"></script>
+	
+	<script type="text/javascript" src="lib/angular/angular.js"></script>
+	<script type="text/javascript" src="lib/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="lib/leaflet.js"></script>
+	<script type="text/javascript" src="lib/L.Control.Locate.min.js"></script>
+	<script type="text/javascript" src="lib/angular-leaflet-directive.min.js"></script>
+	<script type="text/javascript" src="lib/angular-google-maps.min.js"></script>
+	<script type="text/javascript" src="lib/angular/angular-sanitize.min.js"></script>
+	
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="header.js"></script>
+	<script type="text/javascript" src="directives.js"></script>
+	<script type="text/javascript" src="filters.js"></script>
+	<script type="text/javascript" src="view_main/main.js"></script>
+	<script type="text/javascript" src="view_portfolio/portfolio.js"></script>
+	<script type="text/javascript" src="view_project_single/project-single.js"></script>
+	<script type="text/javascript" src="view_contact/contact.js"></script>
+	
+	<script type="text/javascript">
+		(function($) {
+			"use strict";
+			jQuery(window).load(function() { 
+				jQuery("#loaderInner").fadeOut(); 
+				jQuery("#loader").delay(200).fadeOut("slow"); 
+			});
+		})(jQuery);
+	</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<div class="portfolio" ng-init="loadPorfolio()">
+	<div class="main-title">
+		<h1>my works</h1>
+		<div class="divider">
+			<div class="zigzag large clearfix " data-svg-drawing="yes">
+				<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+					<path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;" />
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="block-content">
+			<div class="works">
+				<div class="row">
+					<ul class="work">
+						<li class="col-md-4 col-sm-6" ng-repeat="item in portfolio">
+							<div class="item web">
+								<a ng-href="#!/portfolio/{{item.id}}" class="box-iframe">
+									<div class="desc">
+										<h3 class="proj-desc">
+											{{item.title}}
+											<span class="zigzag work clearfix" data-svg-drawing="yes">
+												<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+													<path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+												</svg>
+											</span>
+											<span>{{item.job}}</span>
+										</h3>
+									</div>
+									<img ng-src="thumbnail/{{item.folder}}.png" />
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="button ofsInTop tCenter clearfix">
+		<div class="divider">
+			<div class="zigzag large clearfix " data-svg-drawing="yes">
+				<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+					<path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;" />
+				</svg>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-12">
+				<a class="but opc-2 ico" href="javascript:window.print();">Print my resume</a>
+			</div>
+		</div>
+	</div>
+</div>

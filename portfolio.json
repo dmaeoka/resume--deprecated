@@ -1,0 +1,295 @@
+﻿[	
+	{
+		"id"          : 1,
+		"folder"      : "boticario",
+		"title"       : "Intranet Boticário",
+		"description" : "Intranet developed for Boticário group. I created the pages in psd, then in HTML and implemented in Sharepoint 2010.",
+		"job"         : "WebDesign & Development",
+		"client"      : "o Boticário",
+		"year"        : "2012",
+		"url"         : "",
+		"images"      : 22
+	},{
+		"id"          : 2,
+		"folder"      : "chame-o-chef",
+		"title"       : "Chame o Chef",
+		"description" : "I created an ecommerce for chef de cuisine. U can schedule a meal, and they go to your home. All based on the region and availability of chefs' hours. The client schedules and pays directly for the site. Logo creation, mockup, and implementation in PHP / Wordpress.",
+		"job"         : "Branding & Development & Ecommerce",
+		"client"      : "Chame o Chef",
+		"year"        : "2016",
+		"url"         : "",
+		"images"      : 4
+	},{
+		"id"          : 3,
+		"folder"      : "comparacambio",
+		"title"       : "Compara Câmbio",
+		"description" : "Personal project. Creation of an aggregator of exchange houses, with a comparison of currencies, rates and values, based on users region. Developed in PHP/Slim, Mysql and AngularJs.",
+		"job"         : "Branding & Development",
+		"client"      : "Diego Maeoka",
+		"year"        : "2015",
+		"url"         : "http://comparacambio.com.br",
+		"images"      : 2
+	},{
+		"id"          : 4,
+		"folder"      : "corra-melhor",
+		"title"       : "Corra Melhor",
+		"description" : "Ebook Sale Project and training for beginners in street running, with a blog on the subject. Developed in PHP / Wordpress",
+		"job"         : "Branding & Development",
+		"client"      : "Bruno Aldenucci",
+		"year"        : "2015",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 5,
+		"folder"      : "fatucheburguer",
+		"title"       : "Fatuche Burguer",
+		"description" : "Hotsite for the restaurant Fatuche Burger. I did the psd, html, and after integrated in AngularJs. Developed in PHP, Mysql and AngularJs.",
+		"job"         : "Desgin & Development",
+		"client"      : "Sidney Fatuche",
+		"year"        : "2016",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 6,
+		"folder"      : "fiep",
+		"title"       : "Intranet FIEP",
+		"description" : "Development of the Intranet of the Federação das Indústrias do Estado do Paraná. I did the PSD, HTML mockup, and subsequently implemented in Sharepoint 2010.",
+		"job"         : "Design & Development",
+		"client"      : "Legulas",
+		"year"        : "2013",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 7,
+		"folder"      : "flor-do-dia",
+		"title"       : "Flor do Dia - Floricultura",
+		"description" : "Development of the floriculture website Flor do Dia, for the agency Pulpa do Design. Developed in PHP/Wordpress and Mysql.",
+		"job"         : "Development",
+		"client"      : "Polpa do Design",
+		"year"        : "2013",
+		"url"         : "http://www.flordodiacuritiba.com.br",
+		"images"      : 7
+	},{
+		"id"          : 8,
+		"folder"      : "grc",
+		"title"       : "GRC",
+		"description" : "Development of a HelpDesk solution - FrontEnd, to be integrated in the <a href='http://glpi-project.org/'>GLPI Project</a>, by REST. Developed in PHP/Slim, Mysql e AngularJs.",
+		"job"         : "Design & Development",
+		"client"      : "Illimitati",
+		"year"        : "2015",
+		"url"         : "",
+		"images"      : 3
+	},{
+		"id"          : 9,
+		"folder"      : "hbsis",
+		"title"       : "HBSIS - GCAD",
+		"description" : "Creation and Development of a mobile application for contract control for the HBSIS company. Developed in HTML/CSS3.",
+		"job"         : "Mobile Design",
+		"client"      : "HBSIS",
+		"year"        : "2016",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 10,
+		"folder"      : "hotsite-webcenter",
+		"title"       : "Hotsite Webcenter Portal",
+		"description" : "Creation of the Oracle Webcenter Portal product hotsite, with product information and technical specifications, for the sales team. Developed in HTML.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Illimitati",
+		"year"        : "2014",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 11,
+		"folder"      : "ibema",
+		"title"       : "Ibema",
+		"description" : "Creation and development of the Ibema website. Developed in PHP/Mysql.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Legulas",
+		"year"        : "2014",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 12,
+		"folder"      : "idm365",
+		"title"       : "IDM 365",
+		"description" : "Creation of a hotsite for the IDM 365 product, with technical information for the sales area. Developed in HTML.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Illimitati",
+		"year"        : "2015",
+		"url"         : "",
+		"url"         : "http://idm365.com.br",
+		"images"      : 1
+	},{
+		"id"          : 13,
+		"folder"      : "illimitati",
+		"title"       : "Site Illimitati",
+		"description" : "Website for the company illimitati, with descriptive about the company, products and services. I created the website in PSD, after a mockup and then developed in Wordpress. Developed in PHP/Wordpress.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Illimitati",
+		"year"        : "2015",
+		"url"         : "",
+		"url"         : "http://illimitati.com",
+		"images"      : 1
+	},{
+		"id"          : 14,
+		"folder"      : "intra7",
+		"title"       : "Intranet IT7",
+		"description" : "Intranet for IT7 company. Using ADF and Oracle Webcenter Portal and javascript. Developed in Java, ADF e JS.",
+		"job"         : "WebDesign & Development",
+		"client"      : "IT7",
+		"year"        : "2015",
+		"url"         : "",
+		"images"      : 2
+	},{
+		"id"          : 15,
+		"folder"      : "intranet",
+		"title"       : "Intranet Illimitati",
+		"description" : "Demonstrative intranet for the illimitati company, using Liferay 6.2 technology. Developed in Java, SCSS, JS, LDAP.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Illimitati",
+		"year"        : "2015",
+		"url"         : "",
+		"images"      : 2
+	},{
+		"id"          : 16,
+		"folder"      : "ipc",
+		"title"       : "IPC",
+		"description" : "Website for the Instituto Paranaense de Cegos (IPC). It was developed as a partnership with the institute, so it was tested directly for the blind and low vision public, in order to demonstrate that accessible sites can also be aesthetically pleasing. Developed in PHP/Wordpress.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Instituto Paranaense de Cegos",
+		"year"        : "2012",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 17,
+		"folder"      : "lilica-e-tigor",
+		"title"       : "Lilica e Tigor",
+		"description" : "Website developed for the season promotion Lilica & Tigor, for the Agência Combo client. Developed in PHP, Mysql e JS.",
+		"job"         : "Development",
+		"client"      : "Agência Combo",
+		"year"        : "2013",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 18,
+		"folder"      : "logos",
+		"title"       : "Logos",
+		"description" : "Logos diversas criadas para clientes.",
+		"job"         : "Design",
+		"client"      : "Various",
+		"year"        : "2010 -",
+		"url"         : "",
+		"images"      : 2
+	},{
+		"id"          : 19,
+		"folder"      : "loja-marceneiro",
+		"title"       : "Loja Marceneiro",
+		"description" : "Ecommerce developed for the company Loja Marceneiro. I developed the PSD, after a HTML mockup and later integrated to the wordpress, using eccommerce tools to integrate with payment. Developed in PHP/Wordpress e JS.",
+		"job"         : "WebDesign & Development & Ecommerce",
+		"client"      : "Polpa do Design",
+		"year"        : "2013",
+		"url"         : "",
+		"images"      : 5
+	},{
+		"id"          : 20,
+		"folder"      : "moradas-classicas-tingui",
+		"title"       : "Moradas Clássicas Tingui",
+		"description" : "Hotsite for a property launch. Static site only with product images. Developed in HTML e JS.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Legulas",
+		"year"        : "2014",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 21,
+		"folder"      : "piui-abacaxi",
+		"title"       : "Piui Abacaxi",
+		"description" : "Institutional site of the children's clothing store Piui Abacaxi. Creation of design, mockup in HTML and later developed in Wordpress. Developed in PHP/Wordpress e Js.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Polpa do Design",
+		"year"        : "2013",
+		"url"         : "http://piuiabacaxi.com.br",
+		"images"      : 1
+	},{
+		"id"          : 22,
+		"folder"      : "positivo-ebs",
+		"title"       : "Positivo EBS",
+		"description" : "Creation of template for Oracle E-Business Suite, for Positivo company. Developed in HTML e JS",
+		"job"         : "WebDesign & Development",
+		"client"      : "Illimitati",
+		"year"        : "2015",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 23,
+		"folder"      : "quero-praticar",
+		"title"       : "Quero Praticar",
+		"description" : "Personal project to add activities to a map, integrated to google places. Showing the location of activities by user region. Developed in HTML, PHP e AngularJs.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Diego Maeoka",
+		"year"        : "2016",
+		"url"         : "",
+		"images"      : 4
+	},{
+		"id"          : 24,
+		"folder"      : "renner",
+		"title"       : "Renner",
+		"description" : "Creation and development of template for Renner client. Developed in HTML e AngularJs.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Illimitati",
+		"year"        : "2015",
+		"url"         : "",
+		"images"      : 7
+	},{
+		"id"          : 25,
+		"folder"      : "rosseto-imoveis",
+		"title"       : "Palladium Office",
+		"description" : "Creation of Hotsite for the client Diego Rossetto. Real estate ad page of the Palladium Office. Developed in HTML e JS.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Diego Rossetto",
+		"year"        : "2015",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 26,
+		"folder"      : "stelo",
+		"title"       : "Stelo",
+		"description" : "Creation of checkout pages for the Stelo customer. Developed in HTML e JS",
+		"job"         : "WebDesign & Development",
+		"client"      : "Illimitati",
+		"year"        : "2015",
+		"url"         : "",
+		"images"      : 5
+	},{
+		"id"          : 27,
+		"folder"      : "tv-corporativa",
+		"title"       : "Corporate TV",
+		"description" : "Corporate channel for television. Based on the company's intranet, content is extracted via the REST and consumed by JS. Developed in Java, ADF e AngularJs.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Illimitati",
+		"year"        : "2013",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 28,
+		"folder"      : "uninter",
+		"title"       : "Intranet Uninter",
+		"description" : "Creation of the Uninter intranet. Developed in HTML and Js, later implemented in Sharepoint 2010.",
+		"job"         : "WebDesign & Development",
+		"client"      : "Uninter",
+		"year"        : "2012",
+		"url"         : "",
+		"images"      : 1
+	},{
+		"id"          : 29,
+		"folder"      : "vitrinesoff",
+		"title"       : "Vitrines Off",
+		"description" : "Ecommerce design based on user location. Logo creation, design and development. Partner stores register their products via the front-end and make available on the site. User only sees the products of your city or region. Developed in PHP/Wordpress.",
+		"job"         : "Branding & WebDesign & Development & Ecommerce",
+		"client"      : "Otávio Sugeno",
+		"year"        : "2016",
+		"url"         : "",
+		"images"      : 1
+	}
+]

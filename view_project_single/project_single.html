@@ -1,0 +1,65 @@
+<div class="portfolio">
+    <!--Main title-->
+    <div class="main-title work-title">
+        <h1 ng-bind-html="portfolio_item.job"></h1>
+        <div class="divider">
+            <div class="zigzag large clearfix " data-svg-drawing="yes">
+                <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <!--End main title-->
+    <!--Content-->
+    <div class="content">
+        <!--Block content-->
+        <div class="block-content ">
+            <div class="block-nav-work margBottom">
+                <ul>
+                    <li><a ng-href="#!/portfolio/{{portfolio_item.prev}}"><i class="icon-left-open-mini"></i></a></li>
+                    <li><a ng-href="#!/portfolio"><i class="icon-cancel"></i></a></li>
+                    <li><a ng-href="#!/portfolio/{{portfolio_item.next}}"><i class="icon-right-open-mini"></i></a></li>
+                </ul>
+            </div>
+            <div class="block-single margBottom clearfix">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 class="large-title margBSSmall" ng-bind-html="portfolio_item.title"></h1>
+                    <p class="margBSSmall">{{portfolio_item.description | to_trusted}}</p>
+                    <hr>
+                    <ul>
+                        <li>Job : <strong>{{portfolio_item.job}}</strong></li>
+                        <li>Client : <strong>{{portfolio_item.client}}</strong></li>
+                        <li>Year : <strong>{{portfolio_item.year}}</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block-single margBottom clearfix" ng-repeat="img in portfolio_item.img">
+                <div class="col-md-10 col-md-offset-1">
+                    <img ng-src="{{img}}" alt="">
+                </div>
+            </div>
+        </div>
+        <!--End block content-->
+    </div>
+    <!--End content-->
+    <!--Button-->
+    <div class="button ofsInTop tCenter">
+        <div class="divider">
+            <div class="zigzag large clearfix " data-svg-drawing="yes">
+                <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;" />
+                </svg>
+            </div>
+        </div>
+        <!--Row-->
+        <div class="row ">
+            <div class="col-md-12">
+            	<a class="but opc-1 ico" ng-href="{{portfolio_item.url}}" target="_blank" ng-if="isNotEmpty(portfolio_item.url)">view project online</a>
+                <a class="but opc-3 ico" href="#!/portfolio">back</a>
+            </div>
+        </div>
+        <!--End row-->
+    </div>
+    <!--End button-->
+</div>
