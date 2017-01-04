@@ -28,7 +28,7 @@ angular.module('appResume.portfolio', ['ngRoute'])
 					angular.forEach($data, function(item) {
 						item.img = [];						
 						for (var i = 1; i <= item.images; i++) {
-							item.img[i] = "portfolio/" + item.folder + "/" + i + ".png";
+							item.img[i] = "img/portfolio/" + item.folder + "/" + i + ".png";
 						}
 					});
 					$scope.portfolio_item = result.data[$routeParams.id - 1];
